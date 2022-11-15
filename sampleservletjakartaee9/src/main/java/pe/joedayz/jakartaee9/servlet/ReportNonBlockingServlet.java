@@ -1,4 +1,4 @@
-package pe.joedayz.jakartaee9;
+package pe.joedayz.jakartaee9.servlet;
 
 import jakarta.servlet.AsyncContext;
 import jakarta.servlet.ReadListener;

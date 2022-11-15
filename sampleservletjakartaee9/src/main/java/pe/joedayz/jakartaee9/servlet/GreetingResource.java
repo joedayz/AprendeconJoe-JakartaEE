@@ -1,4 +1,4 @@
-package pe.joedayz.jakartaee9;
+package pe.joedayz.jakartaee9.servlet;
 
 import static jakarta.ws.rs.core.Response.ok;
 

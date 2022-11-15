@@ -1,4 +1,4 @@
-package pe.joedayz.jakartaee9;
+package pe.joedayz.jakartaee9.servlet;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
