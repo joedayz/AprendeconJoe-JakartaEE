@@ -13,7 +13,7 @@ public class HelloWorldSession implements Serializable {
 
   @PostConstruct
   public void init(){
-    this.message = "Hello World";
+    this.message = "Hello World Session";
     this.date = LocalDateTime.now();
   }
 
