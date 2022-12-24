@@ -1,0 +1,8 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence">
+  <persistence-unit name="jakartaee-unit">
+    <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />
+    </properties>
+  </persistence-unit>
+</persistence>
