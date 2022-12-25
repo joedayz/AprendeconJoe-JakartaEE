@@ -37,7 +37,7 @@ public class BookBusiness {
   public List<Book> findByAuthorName(String name){
     EntityManager entityManager = entityManagerFactory.createEntityManager();
     List<Book> books = entityManager
-        .createQuery("select b from Book b join fetch b.authors a where a.name=:name")
+        .createQuery("select b from Book b join fetch b.authors a where a.name=:name") //JPQL
         .setParameter("name",name)
         .getResultList();
     entityManager.close();

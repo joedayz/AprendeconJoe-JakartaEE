@@ -38,7 +38,7 @@ public class Book {
   private String description;
 
 
-  @ManyToMany(fetch = FetchType.LAZY)
+  @ManyToMany(fetch = FetchType.LAZY)  //@ManyToOne , @OneToMany, @OneToOne
   //ManyToOne , OneToMany, OneToOne
   private Set<Author> authors;
 
